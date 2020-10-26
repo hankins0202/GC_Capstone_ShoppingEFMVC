@@ -1,11 +1,25 @@
 ﻿<Properties StartupConfiguration="{96942D66-DCF5-4902-AA8C-682CB1296FAF}|Default">
   <MonoDevelop.Ide.ItemProperties.Capstone__ShoppingList PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Capstone_ShoppingList/Views/ProductList/Create.cshtml">
+    <Files>
+      <File FileName="Capstone_ShoppingList/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="Capstone_ShoppingList/Views/ProductList/Create.cshtml" Line="13" Column="35" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Capstone_ShoppingList" expanded="True">
-            <Node name="Capstone_ShoppingList" expanded="True" />
+            <Node name="Capstone_ShoppingList" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="ProductList" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>

@@ -19,29 +19,27 @@
     @foreach (var item in Model.Items)
     {
         <tr>
-
             <td style="width:120px">
                 @Html.DisplayFor(modelItem => item.Product)
             </td>
 
             <td >
-                @String.Format("Currency:{0:C}", item.Price)
+                @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", @item.Price)
             </td>
-
         </tr>
     }
 
 </table>
-<div>
+<div >
     <label><b>Subtotal:</b></label>
-    @String.Format("Currency:{0:C}", Model.Total)
+    @String.Format(new System.Globalization.CultureInfo("en-US"),"{0:c}", Model.Total)
 </div>
-<div>
+<div >
     <label><b>Tax: 6%</b></label>
-    @String.Format("Currency:{0:C}", Model.Tax)
+    @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", Model.Tax)
 
 </div>
-<div>
+<div >
     <label><b>Total:</b></label>
-    @String.Format("Currency:{0:C}", Model.GrandTotal)
+    @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", Model.GrandTotal)
 </div>
