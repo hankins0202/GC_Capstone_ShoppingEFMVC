@@ -4,42 +4,42 @@
 @model CheckoutModel
 
 
-<h1><u>Cart</u></h1>
+<h1>Cart</h1>
 
-<table>
-    <tr>
-        <th>
-            Product
-        </th>
-        <th>
-            Price
-        </th>
-    </tr>
-
-    @foreach (var item in Model.Items)
-    {
+    <table>
         <tr>
-            <td style="width:120px">
-                @Html.DisplayFor(modelItem => item.Product)
-            </td>
-
-            <td >
-                @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", @item.Price)
-            </td>
+            <th>
+                Product
+            </th>
+            <th>
+                Price
+            </th>
         </tr>
-    }
 
-</table>
-<div >
-    <label><b>Subtotal:</b></label>
-    @String.Format(new System.Globalization.CultureInfo("en-US"),"{0:c}", Model.Total)
-</div>
-<div >
-    <label><b>Tax: 6%</b></label>
-    @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", Model.Tax)
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td style="width:120px">
+                    @Html.DisplayFor(modelItem => item.Product)
+                </td>
 
-</div>
-<div >
-    <label><b>Total:</b></label>
-    @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", Model.GrandTotal)
-</div>
+                <td >
+                    @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", @item.Price)
+                </td>
+            </tr>
+        }
+
+    </table>
+    <div >
+        <label><b>Subtotal:</b></label>
+        @String.Format(new System.Globalization.CultureInfo("en-US"),"{0:c}", Model.Total)
+    </div>
+    <div >
+        <label><b>Tax: 6%</b></label>
+        @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", Model.Tax)
+
+    </div>
+    <div >
+        <label><b>Total:</b></label>
+        @String.Format(new System.Globalization.CultureInfo("en-US"), "{0:c}", Model.GrandTotal)
+    </div>
