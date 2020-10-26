@@ -24,8 +24,8 @@
                 @Html.DisplayFor(modelItem => item.Product)
             </td>
 
-            <td>
-                @String.Format("{0:C}", item.Price)
+            <td >
+                @String.Format("Currency:{0:C}", item.Price)
             </td>
 
         </tr>
@@ -34,14 +34,14 @@
 </table>
 <div>
     <label><b>Subtotal:</b></label>
-    @String.Format("{0:c}", Model.Total)
+    @String.Format("Currency:{0:C}", Model.Total)
 </div>
 <div>
     <label><b>Tax: 6%</b></label>
-    @String.Format("{0:c}", Model.Tax)
+    @String.Format("Currency:{0:C}", Model.Tax)
 
 </div>
 <div>
     <label><b>Total:</b></label>
-    @String.Format("{0:c}", Model.GrandTotal)
+    @String.Format("Currency:{0:C}", Model.GrandTotal)
 </div>
