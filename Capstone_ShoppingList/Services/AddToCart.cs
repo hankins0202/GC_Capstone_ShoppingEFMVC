@@ -25,6 +25,5 @@ namespace Capstone_ShoppingList.Services
             _context.SaveChanges();
             return product;
         }
-
     }
 }

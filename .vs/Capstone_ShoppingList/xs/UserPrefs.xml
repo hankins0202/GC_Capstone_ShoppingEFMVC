@@ -1,20 +1,34 @@
 ﻿<Properties StartupConfiguration="{96942D66-DCF5-4902-AA8C-682CB1296FAF}|Default">
   <MonoDevelop.Ide.ItemProperties.Capstone__ShoppingList PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Capstone_ShoppingList/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Capstone_ShoppingList/Views/ProductList/Create.cshtml">
     <Files>
-      <File FileName="Capstone_ShoppingList/Views/ProductList/Create.cshtml" Line="16" Column="72" />
-      <File FileName="Capstone_ShoppingList/Views/Home/Index.cshtml" Line="8" Column="128" />
+      <File FileName="Capstone_ShoppingList/Views/ProductList/Create.cshtml" Line="22" Column="63" />
+      <File FileName="Capstone_ShoppingList/Services/AddToCart.cs" Line="27" Column="10" />
+      <File FileName="Capstone_ShoppingList/Services/IAddsToCart.cs" Line="1" Column="1" />
+      <File FileName="Capstone_ShoppingList/wwwroot/css/site.css" Line="80" Column="1" />
+      <File FileName="Capstone_ShoppingList/Controllers/ProductListController.cs" Line="36" Column="1" />
+      <File FileName="Capstone_ShoppingList/Startup.cs" Line="1" Column="1" />
+      <File FileName="Capstone_ShoppingList/Services/ModelMaker.cs" Line="1" Column="1" />
+      <File FileName="Capstone_ShoppingList/Services/DBSetup.cs" Line="1" Column="1" />
+      <File FileName="Capstone_ShoppingList/Views/ProductList/Checkout.cshtml" Line="1" Column="1" />
+      <File FileName="Capstone_ShoppingList/Views/ProductList/AddToCart.cshtml" Line="1" Column="1" />
+      <File FileName="Capstone_ShoppingList/Services/IModelMaker.cs" Line="9" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Capstone_ShoppingList" expanded="True">
             <Node name="Capstone_ShoppingList" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="ProductList" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
                 </Node>
-                <Node name="ProductList" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="resx" expanded="True" />
               </Node>
             </Node>
           </Node>
